@@ -1,12 +1,29 @@
-<<<<<<< HEAD
 # CRUD-APP
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack CRUD (Create, Read, Update, Delete) application that interacts with a SQLite database hosted locally. This project uses **React** for the frontend, **Node.js** for the backend server, and **SQLite** as the database.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 7c78cd5 (Initial Commit)
+## Tech Stack
+- **Frontend**: React
+- **Backend**: Node.js with Express
+- **Database**: SQLite (hosted locally)
+
+---
+
+## Features
+This application allows users to:
+- **Create** new records in the database.
+- **Read** and display records on the frontend.
+- **Update** existing records.
+- **Delete** records.
+
+The application ensures smooth interaction between the frontend, backend, and the SQLite database for performing these operations.
+
+---
+
+## Prerequisites
+Ensure you have the following installed:
+- **Node.js** (v14 or higher)
+- **npm** (Node Package Manager)
+- **SQLite3** (local setup)
